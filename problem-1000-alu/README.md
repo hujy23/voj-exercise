@@ -19,4 +19,4 @@ out = 00000101
 ![Problem 1000 ALU指令译码电路的波形示意][wave]
 
 ----------
-[wave]:./wave-pro-1000-alu.png "Problem 1000 ALU指令译码电路的波形示意"
+[wave]:./pro-1000-alu-wave.png "Problem 1000 ALU指令译码电路的波形示意"
