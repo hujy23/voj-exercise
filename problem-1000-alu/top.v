@@ -2,7 +2,7 @@
 `define minus   3'd1
 `define band    3'd2
 `define bor     3'd3
-`define negate  3'd4
+`define unegate 3'd4
 
 module  alu(a,b,opcode,out);
 
@@ -18,7 +18,7 @@ begin
     `minus:     out = a-b;      //减操作
     `band:      out = a&b;      //求与
     `bor:       out = a|b;      //求或
-    `negate:    out = ~a;       //求反
+    `unegate:   out = ~a;       //求反
     default:    out = 8'hx;     //未收到指令时，输出任意态
     endcase
 end
