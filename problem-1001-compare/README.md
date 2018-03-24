@@ -19,4 +19,4 @@ equal = 0
 ![Problem 1001 二位比较器的波形示意][wave]
 
 ----------
-[wave]:./wave-pro-1001-compare.png "Problem 1001 二位比较器的波形示意"
+[wave]:./prb-1001-compare-wave.png "Problem 1001 二位比较器的波形示意"
